@@ -6,7 +6,7 @@ const Admission = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/api/courses/")
+    axios.get("https://backend.nomanchemistry.com/api/courses/")
       .then((response) => {
         console.log("API Response:", response.data);
         setCourses(response.data);

@@ -102,7 +102,7 @@ const MyCourses = () => {
                 id={`preview-${pdf.id}`}
                 width={funcW}
                 height={funcH}
-                src="https://drive.google.com/file/d/1rowB1NYLJDCNlNUnyrabKFIZp-fLFgMP/preview"
+                src={pdf.file}
               ></iframe>
             </div>
           );
@@ -115,7 +115,7 @@ const MyCourses = () => {
     const fetchCourses = async () => {
       if (user && user.courses) {
         try {
-          const response = await fetch("http://127.0.0.1:8000/api/courses/");
+          const response = await fetch("https://backend.nomanchemistry.com/api/courses/");
           const allCourses = await response.json();
           const userCourses = allCourses.filter((course) =>
             user.courses.includes(course.id)
@@ -136,7 +136,7 @@ const MyCourses = () => {
         try {
           // Fetch videos
           const videoResponse = await fetch(
-            "http://127.0.0.1:8000/api/videos/"
+            "https://backend.nomanchemistry.com/api/videos/"
           );
           const allVideos = await videoResponse.json();
           const courseVideos = allVideos.filter(
@@ -145,7 +145,7 @@ const MyCourses = () => {
           setVideos(courseVideos);
 
           // Fetch PDFs
-          const pdfResponse = await fetch("http://127.0.0.1:8000/api/pdfs/");
+          const pdfResponse = await fetch("https://backend.nomanchemistry.com/api/pdfs/");
           const allPdfs = await pdfResponse.json();
           const coursePdfs = allPdfs.filter(
             (pdf) => pdf.course === selectedCourseId

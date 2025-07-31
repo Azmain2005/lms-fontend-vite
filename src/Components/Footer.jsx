@@ -42,7 +42,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">যোগাযোগ</h3>
           <ul className="space-y-2">
-            <li>Mobile : <a href="mailto:support@ostad.app" className="text-gray-600">01648160153</a></li>
+            <li>Mobile : <a href="#" className="text-gray-600">01648160153</a></li>
             <li>Address: রাণীরদিঘীরপাড়, মহিলা কলেজ রোড, কুমিল্লা। </li>
           </ul>
         </div>

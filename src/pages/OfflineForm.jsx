@@ -49,7 +49,7 @@ const OfflineForm = () => {
     }
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/formusers/', {
+      const response = await fetch('https://backend.nomanchemistry.com/api/formusers/', {
         method: 'POST',
         body: formSubmissionData,
       });

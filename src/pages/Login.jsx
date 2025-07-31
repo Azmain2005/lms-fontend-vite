@@ -56,7 +56,7 @@ const Login = () => {
     const userData = [];
   
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/formusers/");
+      const response = await fetch("https://backend.nomanchemistry.com/api/formusers/");
       const data = await response.json();
   
       data.forEach(user => {
