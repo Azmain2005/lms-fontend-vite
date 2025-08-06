@@ -27,10 +27,19 @@ const CourseCard = ({ course, onClick }) => (
 
 // VideoList Component to display videos for the selected course
 const VideoList = ({ videos }) => {
-  const extractVideoId = (url) => {
-    const urlParts = url.split("v=");
-    return urlParts[1] ? urlParts[1].split("&")[0] : null;
-  };
+const extractVideoId = (url) => {
+  try {
+    const parsedUrl = new URL(url);
+    if (parsedUrl.hostname === "youtu.be") {
+      return parsedUrl.pathname.slice(1);
+    } else if (parsedUrl.hostname.includes("youtube.com")) {
+      return parsedUrl.searchParams.get("v");
+    }
+  } catch (error) {
+    console.error("Invalid YouTube URL:", url);
+  }
+  return null;
+};
 
   return (
     <div className="mt-6">
