@@ -17,16 +17,14 @@ const AboutUs = () => {
             <div className="order-2 md:order-1 flex-1">
               <div className="flex flex-col gap-4">
                 <p className="text-center md:text-left text-lg font-semibold text-green-600">
-                  BREAK THE FEAR সম্পর্কে
+                  Noman's chemistry সম্পর্কে
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left text-gray-900 leading-tight">
-                  বাংলাদেশের সবচেয়ে বড় স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম
+                  কুমিল্লা শহরের শিক্ষার্থীদের রসায়ন ভীতি দূরীকরণের ক্ষুদ্র প্রচেষ্টা।
                 </h1>
               </div>
               <p className="mt-4 text-center md:text-left text-lg text-gray-700 leading-relaxed">
-                ওস্তাদ স্কিল ডেভেলপমেন্টের জন্য বাংলাদেশের সর্বপ্রথম
-                লাইভ-স্ট্রিমিং, ইন্টারেকটিভ এডুকেশন প্ল্যাটফর্ম। আমরা শুধুমাত্র
-                স্কিল্ড হতেই হেল্প করি না, জব পেতেও হেল্প করি।
+                কুমিল্লাতে রসায়ন শেখার জন্যে সর্বপ্রথম অনলাইনভিত্তিক ইন্টারেক্টিভ এডুকেশন প্ল্যাটফর্ম।
               </p>
               <div className="mt-6 flex justify-center md:justify-start"></div>
             </div>
@@ -64,16 +62,9 @@ const AboutUs = () => {
             <div className="flex flex-col gap-2 md:gap-4 items-start text-white">
               <p className="text-3xl md:text-5xl font-bold">আমাদের গল্প</p>
               <p className="text-sm md:text-base">
-                Ostad is the first live-streaming, interactive education
-                platform for skill development in Bangladesh. We not only help
-                people to get upskilled but also help them to get a job. We are
-                doing this through our Weekly streak-based live learning
-                curriculum, in-app-web weekly assessment test, and live classes
-                from the top 1% of industry experts. Here every student is
-                vetted in a way that, after completing our 6-Months program,
-                each graduate gets job-ready & showcased in Talent portals with
-                a solid report card. Our partner companies can hire him very
-                easily from there.
+                [7:59 pm, 07/08/2025] Noman vai: কুমিল্লা শহরের শিক্ষার্থীদের রসায়ন ভীতি দূরীকরণের ক্ষুদ্র প্রচেষ্টা।
+[8:00 pm, 07/08/2025] Noman vai: কুমিল্লাতে রসায়ন শেখার জন্যে সর্বপ্রথম অনলাইনভিত্তিক ইন্টারেক্টিভ এডুকেশন প্ল্যাটফর্ম।
+[8:06 pm, 07/08/2025] Noman vai: ২০১৯ সালে মাত্র ৪-৫জন ছাত্র নিয়ে অফলাইনে যাত্রা শুরু করে NOMAN's Chemistry Clinic। সময়ের পরিক্রমায় গত ৭বছরের আমাদের সাবেক ও বর্তমান মিকে আমরা এখন ৪০০০+ স্টুডেন্ট এর পরিবার। ছাত্রছাত্রীদের মধ্যে জ্ঞান বিতরণের এই যাত্রা চালিয়ে যেতে চাই আমৃত্যু ইনশাআল্লাহ।
               </p>
             </div>
           </div>
@@ -106,7 +97,7 @@ const AboutUs = () => {
                 <div className="flex flex-col gap-1">
                   <p className="text-lg md:text-xl text-white font-bold">সততা</p>
                   <p className="text-sm md:text-base text-white">
-                    প্রতিটি সিদ্ধান্তে সততা বজায় রাখা
+                    প্রতিটি কাজে সততা বজায় রাখা।
                   </p>
                 </div>
               </div>
@@ -136,7 +127,7 @@ const AboutUs = () => {
                 <div className="flex flex-col gap-1">
                   <p className="text-lg md:text-xl text-white font-bold">দ্বায়িত্ববোধ</p>
                   <p className="text-sm md:text-base text-white">
-                    আমাদের কাজ এবং এর ফলাফলের দায়িত্ব নেওয়া।
+                    শিক্ষার্থীদের ভালো ফলাফলের দায়িত্ব নেওয়া।
                   </p>
                 </div>
               </div>
@@ -147,12 +138,12 @@ const AboutUs = () => {
                   alt="Performance"
                   className="w-10 h-10"
                 />
-                <div className="flex flex-col gap-1">
+                {/* <div className="flex flex-col gap-1">
                   <p className="text-lg md:text-xl text-white font-bold">কর্মসম্পাদন</p>
                   <p className="text-sm md:text-base text-white">
                     নির্ভুলতা ও উদ্দেশ্য নিয়ে কাজ সম্পন্ন করা।
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
