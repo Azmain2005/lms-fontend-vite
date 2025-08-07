@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Ostad Branding Section */}
         <div>
           <img src={logo} alt="Ostad Logo" />
-          <p className="text-sm text-gray-600 mb-4">অনলাইনে লাইভ স্কিল ডেভেলপমেন্ট প্ল্যাটফর্ম।</p>
+          <p className="text-sm text-gray-600 mb-4">কুমিল্লা শহরের শিক্ষার্থীদের রসায়ন ভীতি দূরীকরণের ক্ষুদ্র প্রচেষ্টা।</p>
           <div className="mt-6">
             <p className="font-semibold">কমিউনিটি - এর সাথে কানেক্ট থাকুন</p>
             <div className="flex space-x-3 mt-2">
@@ -43,7 +43,8 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">যোগাযোগ</h3>
           <ul className="space-y-2">
             <li>Mobile : <a href="#" className="text-gray-600">01648160153</a></li>
-            <li>Address: রাণীরদিঘীরপাড়, মহিলা কলেজ রোড, কুমিল্লা। </li>
+            <li>Address 1 HSC: রাণীরদিঘীরপাড়, মহিলা কলেজ রোড, কুমিল্লা। </li>
+            <li>Address 2 SSC: তালপুকুরপাড় মডার্ণ স্কুল রোড, কুমিল্লা। </li>
           </ul>
         </div>
 
